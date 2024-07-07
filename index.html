@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawan Kumar Pradhan - Terraform AWS Static Website Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0080ff;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        h1 {
+            color: #f0f3f5;
+        }
+        h2 {
+            color: #0080ff;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        ul {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #0080ff;
+            color: white;
+            border-radius: 5px;
+        }
+        .contact-info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my AWS Static-Website deployed using Terraform pipeline</h1>
+    </header>
+    <main>
+        <img src="logoawstf.png" alt="Terraform Logo" />
+        <h2>About This Project</h2>
+        <p>
+            This is a demo static website deployed on AWS using Terraform. The purpose of this project is to showcase how infrastructure as code can be used to easily deploy and manage web applications.
+        </p>
+        <h2>What I've Built</h2>
+        <ul>
+            <li>An S3 bucket configured for static website hosting</li>
+            <li>CloudFront distribution for content delivery</li>
+            <li>Route 53 configuration for custom domain (if applicable)</li>
+            <li>Automated deployment pipeline using Terraform</li>
+        </ul>
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>Terraform</li>
+            <li>AWS S3</li>
+            <li>AWS Route 53 (optional)</li>
+            <li>HTML/CSS</li>
+        </ul>
+        <p>
+            This project demonstrates the power of Infrastructure as Code (IaC) and how it can streamline the process of setting up and managing cloud resources.
+        </p>
+        <div class="contact-info">
+            <h2>About Me</h2>
+            <p><strong>Pawan Kumar Pradhan</strong></p>
+            <p>Security Researcher | AI, Cybersecurity & Cloud</p>
+            <p>Email: p.pradhan1997@gmail.com</p>
+            <p>Website: <a href="https://me.pawankpradhan.com">me.pawankpradhan.com</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>Created with ❤️ using Terraform and AWS</p>
+    </footer>
+</body>
+</html>
