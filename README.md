@@ -1,5 +1,7 @@
 # Terraform AWS Static Website
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This project demonstrates how to deploy a static website on AWS using Terraform. It showcases the power of Infrastructure as Code (IaC) for managing cloud resources efficiently.
 
 ![Server Running](https://github.com/pawan971/terraform-aws-static-website/blob/main/Serverrunning_SS.png)
