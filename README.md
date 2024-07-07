@@ -2,6 +2,9 @@
 
 This project demonstrates how to deploy a static website on AWS using Terraform. It showcases the power of Infrastructure as Code (IaC) for managing cloud resources efficiently.
 
+![Server Running]([https://github.com/pawan971/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/pawan971/terraform-aws-static-website/blob/main/Serverrunning_SS.png))
+
+
 ## Features
 
 - S3 bucket configured for static website hosting
@@ -37,9 +40,9 @@ terraform plan
 ```
 terraform apply
 ```
-OR using specific variables for the bucket
+    OR use specific variables for bucketname
 ```
-terraform apply apply -auto-approve -var="bucket_name=desiredbucketname01234a"
+terraform apply -auto-approve -var="bucket_name=desiredbucketname01234a"
 ```
 6. After successful application, Terraform will output the website URL.
 
